@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClassiAutomobile
 {
@@ -18,7 +14,7 @@ namespace ClassiAutomobile
         public delegate void SpegnimentoIniziatoDelegate();
         public event SpegnimentoIniziatoDelegate SpegnimentoIniziato;
 
-        public void AvviaMotore() 
+        public void AvviaMotore()
         {
             Console.WriteLine("AvviaMotore fired");
             if (_eAcceso) throw new Exception("Operazione non Permessa");

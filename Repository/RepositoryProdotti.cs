@@ -1,10 +1,6 @@
-﻿using System;
+﻿using EsempioClassi;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using EsempioClassi;
 
 namespace Repository
 {
@@ -15,7 +11,7 @@ namespace Repository
         {
             _pathfile = pathfile;
         }
-        public void Inserisci(Prodotto p) 
+        public void Inserisci(Prodotto p)
         {
             throw new NotImplementedException();
         }
